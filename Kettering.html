@@ -115,15 +115,9 @@
 <div style = "padding: 30px;"></div>
 
 <center>
-<h1>In Kettering</h1>
+<h1>Activities About Kettering</h1>
 </center>
-
-<div>
-  <center>
-    <img src="/img/wolfsburg/Kettering/firststudent.jpg">
-  </center>
-</div>
-
+<div style = "padding: 10px;"></div>
 
 
 
@@ -136,19 +130,75 @@
   }
   </script>
   
-      <style>
-          .On_off_button{color:beige;margin-bottom:30px}
-          .sir_singo_msg button {cursor:pointer;font-family:Arial,'돋움',Dotum;border:none;padding:0;background:#fff; outline:0}
-          .sir_singo_msg .blind_view{font-size:1.14em;font-weight:bold;color:blanchedalmond;margin-top:-3px;text-decoration:underline}
-          .In_lecture { display:none; }
+  <script>
+    function SirenFunction2(idMyDiv){
+         var objDiv = document.getElementById(idMyDiv);
+         if(objDiv.style.display=="block"){ objDiv.style.display = "none"; }
+          else{ objDiv.style.display = "block"; }
+    }
+    </script>
+
+<script>
+  function SirenFunction3(idMyDiv){
+       var objDiv = document.getElementById(idMyDiv);
+       if(objDiv.style.display=="block"){ objDiv.style.display = "none"; }
+        else{ objDiv.style.display = "block"; }
+  }
+  </script>
+  
+    <style>
+    .On_off_button{color:beige;margin-bottom:30px}
+    .sir_singo_msg button {cursor:pointer;font-family:Arial,'돋움',Dotum;border:none;padding:0;background:#fff; outline:0}
+    .sir_singo_msg .blind_view{font-size:1.14em;font-weight:bold;color:blanchedalmond;margin-top:-3px;text-decoration:underline}
+    .frontend { display:none; }
   </style>
   
-      <div class="con_inner">
-      <div class="On_off_button">
-          <a href="#" onclick="SirenFunction('SirenDiv'); return false;" class="blind_view"><img src="/img/wolfsburg/code.png" width = "50" height = "30"></a> 설명
+  <style>
+    .On_off_button2{color:beige;margin-bottom:30px}
+    .sir_singo_msg button {cursor:pointer;font-family:Arial,'돋움',Dotum;border:none;padding:0;background:#fff; outline:0}
+    .sir_singo_msg .blind_view2{font-size:1.14em;font-weight:bold;color:blanchedalmond;margin-top:-3px;text-decoration:underline}
+    .backend { display:none; }
+  </style>
+
+<style>
+  .On_off_button3{color:beige;margin-bottom:30px}
+  .sir_singo_msg button {cursor:pointer;font-family:Arial,'돋움',Dotum;border:none;padding:0;background:#fff; outline:0}
+  .sir_singo_msg .blind_view2{font-size:1.14em;font-weight:bold;color:blanchedalmond;margin-top:-3px;text-decoration:underline}
+  .backend { display:none; }
+</style>
+
+  
+  
+  <div>    
+  <div style = "padding: 30px;"></div>
+  
+  
+  <div class="con_inner">
+  <div class="On_off_button">
+      <a href="#" onclick="SirenFunction('SirenDiv'); return false;" class="blind_view"><img src="/img/wolfsburg/Kettering/material.png" width = "110" height = "30"></a>
+  </div>
+  <div class="frontend" id="SirenDiv">
+    <center>      
+    <img src="/img/wolfsburg/Kettering/Merged_document.jpg" width = "800">
+  </center>
+    설명 넣기1
+  </div>
+  
+
+
+  <div>    
+    <div class="con_inner">
+      <div class="On_off_button2">
+          <a href="#" onclick="SirenFunction2('SirenDiv2'); return false;" class="blind_view"><img src="/img/wolfsburg/Kettering/certificate_button.png" width = "90" height = "30"></a>
       </div>
-      <div class="In_lecture" id="SirenDiv">
-        <img src="/img/me.jpg" align="left" margin-right: 20px; margin-bottom: 10px; width = "550" height = "607" hspace="50" vspace="50">
-      </div>
-  </div>   
+      <div class="backend" id="SirenDiv2">
+        <center>      
+    <img src="/img/wolfsburg/Kettering/certificates.jpg" width = "800">
+  </center>
+  </div>
+
+  </div>
+     
+  
+  
 
