@@ -1,0 +1,113 @@
+html body{
+    margin: 0;
+    padding: 0;
+  }
+  h1, p {
+    margin: 0;
+  }
+
+  a{
+    color: inherit;
+    text-decoration: none;
+    color: rgb(244, 245, 244);
+}
+h1{
+    color: rgba(224, 190, 20, 0.977);
+   
+}
+
+#lists{
+    font-family:'비트로 코어 TTF'
+}
+
+ #머리{   
+     background:url(
+        빨.jpg
+     );
+     background-size: cover;
+     background-position: center center;
+     position: absolute;
+     width: 100%;
+     height: 100%;
+   
+
+ }
+ #가슴{
+    background: url(
+      주.JPG
+    )no-repeat;
+    width: 10%;
+    height: 10%;
+    background-size:cover;
+    background-position: center center;
+    position:absolute;
+    top: 2%;
+    left: 0.04%;
+ }
+ 
+ #배 {
+    background:url(
+       노.jpg
+    );
+    position: absolute;
+    font-weight: bold;
+    font-size: 2.5vw;
+    width: 7%;
+    height: 7%;
+    left: 8.5%;
+    right : 10%;
+    top: 4%;
+ }
+
+ #다리{
+    background:url(
+       초.jpg
+    );
+    position: absolute;
+    top: 27%;
+    left:63%;
+    width: 23%;
+    height: 43%;
+    font-size: 1.5vw;
+ }
+
+ #발 a{
+    background:url(
+       파.jpg
+    );
+    position: absolute;
+    top: 72%;
+    left: 63%;
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 1% 2%;
+    border-radius: 20px;
+    transition: all 0.3s;
+     }
+#발 a:hover{
+    background-color: rgb(187, 140, 10);
+    
+}
+
+#발2 a{
+    background:url(
+       남.jpg
+    );
+    position: absolute;
+    top:85%;
+    left: 63%;
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+#발2 a:hover{
+    background-color: rgb(187, 140, 10);
+}
