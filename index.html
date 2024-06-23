@@ -27,35 +27,49 @@
 			  float : left;
 			}
 		
-			#profile3{
+			#profile{
 			  width: 50%;
 			  height: 300px;
 			  float : left;
 			}
-	  
-			#profile4{
-			  width: 50%;
-			  height: 300px;
-			  float : left;
-			}
-	  
-			#profile5{
-			  width: 50%;
-			  height: 300px;
-			  float : left;
-			}
-	  
-			#profile6{
-			  width: 50%;
-			  height: 300px;
-			  float : left;
+
+			#profile7 {
+				width: 50%;
+				height: 300px;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
 			}
 		
 			.profileimg{
 			  width:50%;
 			  border-radius: 50%;
 			  margin : 5%;
-			}		
+			}
+			.profile-img-container {
+        position: relative;
+        display: inline-block;
+    }
+    .hover-message {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .profile-img-container:hover .hover-message {
+        display: block;
+    }
+    .profile-img-container:hover .profileimg {
+        opacity: 0.11;
+    }
+
 		  </style>
 
 
@@ -135,9 +149,10 @@
 					<header>
 						<h2>My Work</h2>
 					</header>
+					
 
-						<div style = "padding: 3%;"></div>		
-							<div id="profile3">
+						<div style = "padding: 3%;"></div>
+							<div id="profile">
 							<center>
 							<a href="My_work/It's_okay.html"><img src="images/mywork/It's_okay.jpg" class="profileimg" style=" display:block;"></a>
 							Web service
@@ -146,7 +161,7 @@
 						</div>
 
 						
-						<div id="profile4">
+						<div id="profile">
 							<center>
 							<a href="My_work/Linco.html"><img src="images/mywork/Linco.png" class="profileimg" style=" display:block;"></a>
 							Application
@@ -158,7 +173,7 @@
 						<div style = "padding: 20%;"></div>
 						
 		
-						<div id="profile5">
+						<div id="profile">
 							<center>
 							<a href="My_work/Capstone.html"><img src="images/mywork/capstone.jpg" class="profileimg" style=" display:block;"></a>
 							Robotic hand control system
@@ -166,14 +181,73 @@
 							</center>
 						</div>
 		
-							<div id="profile6">
+							<div id="profile">
 							<center>
 							<a href="My_work/seame.html"><img src="images/mywork/seame.jpg" class="profileimg" style=" display:block;"></a>
 							Embedded System
 							<br>'SEA:ME'
 							</center>
 						</div>
+
+						<div style = "padding: 22%;"></div>
+
 						
+						<hr>
+						<br>
+						after career
+						<br>
+
+
+						<!-- <div id="profile">
+							<center>
+							<a href="My_work/Capstone.html"><img src="images/mywork/telechips.jpg" class="profileimg" style=" display:block;"></a>
+							BSP devleoper
+							<br>'Telechips corp'
+							</center>
+						</div> -->
+
+						<div id="profile" class="profile">
+							<center>
+									<div class="profile-img-container">
+										<img src="images/mywork/telechips.jpg" class="profileimg">
+										<div class="hover-message">forbidden</div>
+									</div>
+								BSP developer
+								<br>'Telechips corp'
+							</center>
+						</div>
+
+						<div id="profile" class="profile">
+							<center>
+								<div class="profile-img-container">
+									<img src="images/mywork/ericsson_lg.jpg" class="profileimg">
+									<div class="hover-message">forbidden</div>
+								</div>
+								5GC core network
+								<br>'Ericsson - LG'
+							</center>
+						</div>
+						
+		
+							<!-- <div id="profile">
+							<center>
+							<a href="My_work/seame.html"><img src="images/mywork/ericsson_lg.jpg" class="profileimg" style=" display:block;"></a>
+							5GC core network
+							<br>'Ericsson - LG'
+							</center>
+						</div> -->
+
+						
+						
+						<div style = "padding: 22%;"></div>
+		
+							<div id="profile7">
+							<center>
+							<a href="My_work/Embedded_Project/Embedded Project.html"><img src="images/mywork/personal_project.png" class="profileimg" style=" display:block;"></a>
+							Embedded Project
+							<br>'Exhibition'
+							</center>
+						</div>
 				</div>
 			</section>
 
